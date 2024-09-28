@@ -5,7 +5,9 @@ import { AiOutlineWhatsApp } from "react-icons/ai";
 import Courses from "../courses/Courses";
 import Community from "../Community/Community";
 import Plans from "../Plans/Plans.jsx";
- 
+import About from "../../About/About.jsx";
+import ContactUs from "../Contacts/ContactUs.jsx";
+
 function Home() {
   const handleClick = () => {
     window.open("https://www.youtube.com/live/G5eDBSuhrP4?si=aNU_XTJ9wpT66FT6");
@@ -19,7 +21,7 @@ function Home() {
           <div className="home_container">
             <div className="home_content">
               <h2 className="section_title">Learn Everything For Free</h2>
-              <p>Lorem ipsum dolor sit amet consectetur alias.</p>
+              <p>Lorem ipsum dolor sit amet consectetur alias. lorem</p>
               <div className="home-btn">
                 <button
                   className="reg-btn"
@@ -55,7 +57,8 @@ function Home() {
       <Courses />
       <Community />
       <Plans />
-      
+      <About />
+      <ContactUs />
     </>
   );
 }

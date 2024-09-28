@@ -1,0 +1,44 @@
+.contact-us-container{
+    max-width: 800px;
+    margin: 0 auto ;
+    padding: 40px;
+    text-align: center;
+}
+.contact-us-container h1{
+    font-size: 43px;
+    margin-bottom: 20px;
+    color:rgb(31, 31, 66);
+
+}
+
+.contact-us-container p{
+font-size: 18px;
+margin-bottom: 40px;
+
+}
+
+.contact-us-container .form-group{
+    margin-bottom: 20px;
+    text-align: left;
+
+}
+.contact-form label{
+    display: block;
+     font-size: 16px;
+    margin-bottom: 5px;
+    font-weight: 500;
+
+}
+
+.contact-form input, .contact-form textarea{
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+
+}
+.reg-btn{
+ margin-left:280px ;
+}

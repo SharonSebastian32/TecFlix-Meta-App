@@ -2,6 +2,7 @@
     display: flex;
     justify-content: space-between;
     padding-top: 50px;
+    
 
  }
 
@@ -11,6 +12,7 @@
     padding-right: 50px;
     line-height: 50px;
     margin-bottom: 20px;
+    
  }
 
 
@@ -31,6 +33,7 @@
  .home-img-wrapper{
    position: relative;
    z-index: 1;
+   
 
  }
  .box-01{
@@ -38,6 +41,7 @@
    height: 400px;
    border-radius: 100%;
    border: 25px solid rgba(141,141,235,2);
+    box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
 
  }
 
@@ -46,6 +50,7 @@
    top: -11%;
    left: -13%;
     z-index: 10;
+    
  }
 
  .box-img img{

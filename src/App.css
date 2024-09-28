@@ -42,7 +42,7 @@ li{
     list-style-type: none;
 }
 .reg-btn{
-    background-color: var(--primary-color);
+     background-color: var(--primary-color);
     border: none;
     border-radius: 5px;
     color: #fff;

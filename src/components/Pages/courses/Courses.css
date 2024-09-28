@@ -3,7 +3,7 @@
      max-width: 1200px;
      margin: 0 auto;
      padding: 2rem 1rem;
- }
+  }
 
  /* Top section styles */
  .course_top {
@@ -24,7 +24,8 @@
 
  /* Course wrapper styles */
  .course-wrapper {
-     background: linear-gradient(90deg, rgba(103, 101, 240, 1) 27%, rgba(141, 141, 235, 1) 85%);
+        box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+      background: linear-gradient(90deg, rgba(103, 101, 240, 1) 27%, rgba(141, 141, 235, 1) 85%);
      border-radius: 0.5rem;
      display: flex;
      align-items: center;
