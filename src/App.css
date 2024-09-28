@@ -41,17 +41,17 @@ a:hover{
 li{
     list-style-type: none;
 }
-.rg-btn{
+.reg-btn{
     background-color: var(--primary-color);
     border: none;
     border-radius: 5px;
     color: #fff;
     cursor: pointer; 
     font-family: 'Poppins';
-    font-size: 1rem;
+    font-size: 3rem;
     font-weight: 700;
     outline: none;
-    padding: 5px 12px;
+    padding: 8px 12px;
 }
 
 

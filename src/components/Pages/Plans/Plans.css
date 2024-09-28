@@ -1,0 +1,129 @@
+ .container {
+     max-width: 1200px;
+     margin: 0 auto;
+     padding: 2rem;
+ }
+
+ .pricing_top {
+     text-align: center;
+     margin-bottom: 3rem;
+ }
+
+ .section_title {
+     font-size: clamp(2rem, 5vw, 2.5rem);
+     margin-bottom: 1rem;
+     color: var(--heading-color);
+ }
+
+ .pricing_top p {
+     font-size: clamp(1rem, 2vw, 1.1rem);
+     color: var(--text-color);
+     line-height: 1.6;
+     max-width: 600px;
+     margin: 0 auto;
+  }
+
+ .pricing_wrapper {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     gap: 2rem;
+ }
+
+ .pricing_item {
+     flex: 1 1 300px;
+     max-width: 350px;
+     border: 1px solid var(--border-color);
+     border-radius: 10px;
+     overflow: hidden;
+     transition: all 0.3s ease;
+     background-color: var(--card-bg-color);
+     will-change: transform, box-shadow;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+     height: 90%;
+    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  }
+
+ .pricing_item:hover {
+     box-shadow: 0 5px 15px var(--shadow-color);
+     transform: translateY(-5px);
+ }
+
+ .pricing_card-top {
+     padding: 30px;
+     background: var(--primary-color);
+     color: var(--card-bg-color);
+     text-align: center;
+ 
+ }
+
+ .plan_name { color: white;
+     font-size: 2.2rem;
+     margin-bottom: 0.5rem;
+ }
+
+ .pricing_title {
+     font-size: 2rem;
+     margin-bottom: 0;
+    color: white;
+ }
+
+ .pricing_title span {
+     font-size: 1rem;
+     opacity: 0.8;
+ }
+
+ .services {
+     padding: 30px;
+     flex-grow: 1;
+ }
+
+ .services ul {
+     list-style-type: none;
+     padding: 0;
+     margin-bottom: 2rem;
+ }
+
+ .services ul li {
+     display: flex;
+     align-items: center;
+     margin-bottom: 1rem;
+     color: var(--text-color);
+ }
+
+ .services ul li i {
+     color: var(--primary-color);
+     margin-right: 0.5rem;
+ }
+
+ .reg-btn {
+     display: block;
+     width: 100%;
+     padding: 0.75rem;
+     font-size: 1rem;
+     font-weight: bold;
+     color: var(--card-bg-color);
+     background-color: var(--primary-color);
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     color: #fff;
+     transition: background-color 0.3s ease;
+ }
+
+ .reg-btn:hover {
+background: linear-gradient(90deg, rgba(103, 101, 240, 1) 27%, rgba(141, 141, 235, 1) 85%); }
+
+ @media screen and (max-width: 768px) {
+     .pricing_wrapper {
+         flex-direction: column;
+         align-items: center;
+     }
+
+     .pricing_item {
+         width: 100%;
+         max-width: 400px;
+     }
+ }

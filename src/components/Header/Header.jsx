@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import logo from "../../assets/img/logo.png";
-function Header() {
+ function Header() {
   const nav_titles = [
     { path: "/", display: "Home" },
     { path: "/", display: "Services" },
@@ -32,7 +32,7 @@ function Header() {
         </div>
       </div>
     </header>
-  );
+   );
 }
 
 export default Header;

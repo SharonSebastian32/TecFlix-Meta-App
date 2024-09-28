@@ -3,6 +3,9 @@ import "./Home.css";
 import metaverse from "../../../assets/img/meta.jpeg";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Courses from "../courses/Courses";
+import Community from "../Community/Community";
+import Plans from "../Plans/Plans.jsx";
+ 
 function Home() {
   const handleClick = () => {
     window.open("https://www.youtube.com/live/G5eDBSuhrP4?si=aNU_XTJ9wpT66FT6");
@@ -18,10 +21,14 @@ function Home() {
               <h2 className="section_title">Learn Everything For Free</h2>
               <p>Lorem ipsum dolor sit amet consectetur alias.</p>
               <div className="home-btn">
-                <button className="rg-btn" onClick={handleClick}>
+                <button
+                  className="reg-btn"
+                  onClick={handleClick}
+                  style={{ boxShadow: " " }}
+                >
                   Get Started
                 </button>
-                <button className="rg-btn">Watch Now!</button>
+                <button className="reg-btn">Watch Now!</button>
               </div>
             </div>
             <div className="home_img">
@@ -46,6 +53,9 @@ function Home() {
         </div>
       </section>
       <Courses />
+      <Community />
+      <Plans />
+      
     </>
   );
 }

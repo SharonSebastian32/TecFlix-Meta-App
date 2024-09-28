@@ -3,7 +3,7 @@ import "./Courses.css";
 import ai from "../../../assets/img/ai.png";
 import sdm from "../../../assets/img/sd.png";
 import dg from "../../../assets/img/dg.png";
-import hk from "../../../assets/img/hacking.png";
+import hk from "../../../assets/img/Hacker.png";
 
 function Courses() {
   const courseData = [
@@ -37,7 +37,7 @@ function Courses() {
         <div className="course-wrapper">
           {courseData.map((courses, index) => (
             <div className="course_item">
-              <span>
+              <span className="course_icon">
                 <img src={courses.img} alt="" />
               </span>
               <div className="cousrse-content">
