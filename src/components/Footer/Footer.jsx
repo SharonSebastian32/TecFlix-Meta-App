@@ -1,7 +1,13 @@
 import React from "react";
 import "./Footer.css";
+
 import footer_logo from "../../assets/img/footer.png";
+import { Link } from "react-router-dom";
+
 function Footer() {
+  const handleClick = () => {
+    window.scrollTo(0, 0);
+  };
   return (
     <div className="footer">
       <div className="container">
@@ -22,13 +28,19 @@ function Footer() {
             <h4 className="footer_title">Company</h4>
             <ul className="footer_links">
               <li>
-                <a href="">Programs</a>
+                <Link to="/courses" onClick={handleClick}>
+                  Programs
+                </Link>
               </li>
               <li>
-                <a href="">Our Plans</a>
+                <Link to="/services" onClick={handleClick}>
+                  Our Plans
+                </Link>
               </li>
               <li>
-                <a href="">Become a member</a>
+                <Link to="#" onClick={handleClick}>
+                  Become a member
+                </Link>
               </li>
             </ul>
           </div>
@@ -36,13 +48,20 @@ function Footer() {
             <h4 className="footer_title">Quick Links</h4>
             <ul className="footer_links">
               <li>
-                <a href=""> About Us</a>
+                <Link to="/about" onClick={handleClick}>
+                  {" "}
+                  About Us
+                </Link>
               </li>
               <li>
-                <a href="">Contact Us</a>
+                <Link to="/contact" onClick={handleClick}>
+                  Contact Us
+                </Link>
               </li>
               <li>
-                <a href="">Support US</a>
+                <Link to="/support" onClick={handleClick}>
+                  Support US
+                </Link>
               </li>
             </ul>
           </div>

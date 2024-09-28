@@ -32,18 +32,17 @@
 
  .pricing_item {
      flex: 1 1 300px;
-     max-width: 350px;
+     max-width: 330px;
      border: 1px solid var(--border-color);
      border-radius: 10px;
      overflow: hidden;
      transition: all 0.3s ease;
-     background-color: var(--card-bg-color);
      will-change: transform, box-shadow;
      display: flex;
      flex-direction: column;
      justify-content: space-between;
      height: 90%;
-    box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+     box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
   }
 
  .pricing_item:hover {

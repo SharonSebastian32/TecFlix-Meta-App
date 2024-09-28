@@ -23,8 +23,12 @@
 }
 
 .footer_box p{
-    line-height: 1.2rem;
+    line-height: 1.7rem;
     margin-top: 20px;
+    color: var(--heading-color);
+     font-weight: 600;
+     font-family: cursive;
+
 
 }
 
@@ -36,9 +40,11 @@
 }
 
 .footer_links li{
-    line-height: 20px;
+    line-height: 35px;
     color: var(--heading-color);
     cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
 }
 
 .footer_links li a{

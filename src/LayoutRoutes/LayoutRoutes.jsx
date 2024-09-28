@@ -7,6 +7,7 @@ import Plans from "../components/Pages/Plans/Plans";
 import Courses from "../components/Pages/courses/Courses";
 import About from "../components/About/About.jsx";
 import ContactUs from "../components/Pages/Contacts/ContactUs.jsx";
+import Support from "../Support/Support.jsx";
 function LayoutRoutes() {
   return (
     <>
@@ -19,6 +20,7 @@ function LayoutRoutes() {
           <Route path="/Courses" element={<Courses />} />
           <Route path="/about" element={<About />} />
           <Route path="/contact" element={<ContactUs />} />
+          <Route path="/support" element={<Support />} />
         </Routes>
         <Footer />
       </Router>

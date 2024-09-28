@@ -3,6 +3,8 @@
     margin: 0 auto ;
     padding: 40px;
     text-align: center;
+        box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgba(14, 0, 0, 0);
+
 }
 .contact-us-container h1{
     font-size: 43px;
@@ -39,6 +41,23 @@ margin-bottom: 40px;
 
 
 }
-.reg-btn{
- margin-left:280px ;
+.contact-form textarea{
+    resize: none;
+}
+ 
+
+.sbmt-btn{
+    padding: 8px 25px;
+    font-size: 16px;
+    background-color: #4caf50;
+    color: #fff;
+     border-radius: 4px;
+    cursor: pointer;
+    border: none;
+ }
+
+
+
+.sbmt-btn:hover{
+    background-color: #45a049;
 }

@@ -7,6 +7,7 @@ import Community from "../Community/Community";
 import Plans from "../Plans/Plans.jsx";
 import About from "../../About/About.jsx";
 import ContactUs from "../Contacts/ContactUs.jsx";
+import Support from "../../../Support/Support.jsx";
 
 function Home() {
   const handleClick = () => {
@@ -59,6 +60,7 @@ function Home() {
       <Plans />
       <About />
       <ContactUs />
+      <Support />
     </>
   );
 }
